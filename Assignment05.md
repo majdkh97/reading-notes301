@@ -23,3 +23,5 @@ To build a static version of your app that renders your data model, you’ll wan
 
 ### How can you identify where state needs to live?
 - ProductTable needs to filter the product list based on state and SearchBar needs to display the search text and checked state. The common owner component is FilterableProductTable. It conceptually makes sense for the filter text and checked value to live in FilterableProductTable Cool, so we’ve decided that our state lives in FilterableProductTable
+
+[Go Back ](README.md)
